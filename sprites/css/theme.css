@@ -1,0 +1,26 @@
+/* */
+.flags{
+    display: flex;
+}
+
+.flag1{
+    background: url(../ressources/flags.jpg);
+  height: 340px;
+  width: 490px;
+}
+
+.flag2{
+    background: url(../ressources/flags.jpg);
+}
+
+.flag3{
+    background: url(../ressources/flags.jpg);
+  height: 170px;
+  width: 490px;
+}
+
+.flag4{
+    background: url(../ressources/flags.jpg);
+  height: 170px;
+  width: 685px;
+}

@@ -1,0 +1,43 @@
+article .section1 {
+  background: #fff;
+  border: solid 1px #7a1f1f;
+  padding: 1em;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.section2 article {
+  margin: 1em 0 1em 1em;
+  background: #fff;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.section3 article {
+  margin: 1em 0 1em 1em;
+  background: #fff;
+}
+
+.section4 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.section4 article {
+  margin: 1em 0 1em 1em;
+  background: #fff;
+}
+
+/*# sourceMappingURL=theme.css.map */
