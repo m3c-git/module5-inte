@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Le template des démos du module 3 (feuille de style commune en version 3)">
-	<title>La cascade</title>
+	<title>Menu déroulant</title>
 	<link rel="stylesheet" href="css/common-v3.css">
 	<link rel="stylesheet" href="css/theme.css">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,21 +14,22 @@
 <body>
 
 	<header class="header">
-		<h1>La cascade</h1>
-		<p>Comprendre les différents facteurs de la cascade: l'ordre dans la source, la spécificité et l'importance</p>
-		<nav>
+		<h1>Menu déroulant</h1>
+		<p>Faire un menu déroulant avec le positionnement absolu</p>
+		<nav class="menu">
 			<menu>
 				<li>Rubrique 1</li>
-				<li>Rubrique 2
+				<li class="relative">Rubrique 2</li>
+				<li class="sous-menu1">
 					<ul>
-					<li>Rubrique 2.1</li>
-					<li>Rubrique 2.2</li>
-					<li>Rubrique 2.3</li>
-					<li>Rubrique 2.4</li>
-				</ul>
+						<li>Rubrique 2.1</li>
+						<li>Rubrique 2.2</li>
+						<li>Rubrique 2.3</li>
+						<li>Rubrique 2.4</li>
+					</ul>
 				</li>
-				
-				<li>Rubrique 3
+				<li class="relative">Rubrique 3</li>
+				<li class="sous-menu2">
 					<ul>
 						<li>Rubrique 3.1</li>
 						<li>Rubrique 3.2</li>
