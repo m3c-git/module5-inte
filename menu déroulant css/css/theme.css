@@ -3,7 +3,7 @@
     background: black;
     display: none;
     position: absolute;
-    top: 1em;
+    top: 1.5em;
     left: 0;
 
 
@@ -16,7 +16,7 @@ menu{
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
+    padding: 2.5em;
     width: 50%;
     margin: 0 auto;
 }
@@ -31,11 +31,9 @@ menu{
 
 li{
     list-style: none;
+    padding-left: 1em;
 }
 
-menu > li {
-
-}
 
 .relative{
     position: relative;
@@ -46,8 +44,23 @@ menu > li {
     text-decoration: none;
 }
 
-menu li:hover .sous-menu1, menu li:hover .sous-menu2{
+.li{
+    width: 8em;
+    text-align: start;
+    padding: 1.5em 1em;
+}
+
+menu .li:hover{
     display: block;
 
+}
+
+ menu > li:hover .sous-menu1, menu li:hover .sous-menu2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0;
+    margin: 0;
 }
 
