@@ -1,0 +1,17 @@
+/* Le code CSS de la démo */
+
+.outer p{
+    color: green;
+}
+
+.alice {
+    color: blue;
+}
+
+.bob{
+    color: red;
+}
+
+.important{
+    color: red;
+}
