@@ -1,0 +1,40 @@
+/* */
+
+:root{
+    --main-color: #444;
+    --link-color: #fff;
+    --orange: #DD5735;
+    --font-text: Arial, sans-serif;
+    --h1: 2rem;
+}
+
+body{
+    color: var(--main-color);
+    font-family: var(--font-text);
+}
+
+button{
+    display: inline-block;
+	padding: 1em 2em;
+	font-size: 1.6rem;
+	color: #fff;
+	background-color: var(--orange);
+	border: 2px solid #DD5735;
+	cursor: pointer;
+    font-weight: bolder;
+    
+}
+
+button a{
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+button a:hover{
+    text-decoration: none;
+}
+
+h2{
+    font-size: var(--h1);
+}
+
